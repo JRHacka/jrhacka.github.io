@@ -15,9 +15,6 @@
                 href="https://jrhacka.github.io/"
                 />
   </url><url>
-    <loc>https://jrhacka.github.io/categories/about-me/</loc>
-    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jrhacka.github.io/about/</loc>
     <lastmod>2022-07-06T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -30,6 +27,9 @@
                 hreflang="en"
                 href="https://jrhacka.github.io/about/"
                 />
+  </url><url>
+    <loc>https://jrhacka.github.io/categories/about-me/</loc>
+    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jrhacka.github.io/tags/bio/</loc>
     <lastmod>2022-07-06T00:00:00+00:00</lastmod>
