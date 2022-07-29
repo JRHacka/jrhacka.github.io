@@ -23,5 +23,37 @@
       </description>
     </item>
     
+    <item>
+      <title>Jerry&#39;s Mom Has Got It Goin On&#39;</title>
+      <link>https://jrhacka.github.io/post/jerry/</link>
+      <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jrhacka.github.io/post/jerry/</guid>
+      <description>
+        
+          
+            &lt;p&gt;Oh my how the clever titles continue. This is a box walkthrough of Jerry from HTB. Come and follow along as we discover the vulnerabilties, exploit the machine, and hack the box!&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Lame is Cool</title>
+      <link>https://jrhacka.github.io/post/lame/</link>
+      <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jrhacka.github.io/post/lame/</guid>
+      <description>
+        
+          
+            &lt;p&gt;Clever titles for days. This walkthough of the Lame box is another begginner friendly entry level HTB. We&#39;ll explore a little anonymous FTP, and find out more about Samba. s&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
   </channel>
 </rss>
