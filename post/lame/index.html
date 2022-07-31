@@ -97,6 +97,8 @@
     <a href="https://jrhacka.github.io/" class="nav_item" title="Links">Links <img src='https://jrhacka.github.io/icons/caret-icon.svg' alt="icon" class="nav_icon"></a>
     <div class="nav_sub">
       <span class="nav_child"></span>
+        <a href="https://1drv.ms/u/s!ApzemKTS24h1sGak-MukFujrU7WW?e=ym8W1s" class="nav_child nav_item" title="Certs, Completions, and Placements">Certs, Completions, and Placements</a>
+        <a href="https://discord.gg/ZaH8vn4hxS" class="nav_child nav_item" title="Discord: The Lost Ones">Discord: The Lost Ones</a>
         <a href="https://www.linkedin.com/in/jake-rice-371b0a16b/" class="nav_child nav_item" title="LinkedIn">LinkedIn</a>
         <a href="https://twitter.com/HackaJr" class="nav_child nav_item" title="Twitter">Twitter</a>
     </div>
@@ -206,8 +208,35 @@
   </div>
   </span>
   </div>
+<div class="post_featured"><figure>
+  <picture>
 
-    <div class="post_body"><p>Clever titles for days. This walkthough of the Lame box is another begginner friendly entry level HTB. We'll explore a little anonymous FTP, and find out more about Samba. s</p>
+    
+      
+        
+        
+        
+        
+        
+        
+    <img
+      loading="lazy"
+      decoding="async"
+      alt=""
+      
+        class="image_figure image_featured image_external image_processed"
+        width="286"
+        height="102"
+        src="/images/Lame_logo_8139525012769002311.png"
+      
+      
+    />
+
+    </picture>
+</figure>
+
+      </div>
+    <div class="post_body"><p>Clever titles for days. This walkthough of the Lame box is another begginner friendly entry level HTB. We'll explore a little anonymous FTP, and find out more about Samba. You can find the walkthrough video down below!</p>
 <hr>
 <h2 id="startup">Startup</h2>
 <p>This is an entry level beginner freindley box, so the walkthrough is going to be the same. With that being said, the first step that other walkthoughs always skip over is spinning up the box and getting connected. While it is easy once you know how to do it if you don't know how you'll never be able to get started. Feel free to skip to the next section if you already know how to do this.</p>
@@ -225,15 +254,15 @@
   </div>
 </p>
 <hr>
-<h2 id="intelligence-gathering">Intelligence gathering</h2>
+<h2 id="intelligence-gathering">Intelligence Gathering</h2>
 <p>The first thing I always like to do is run NMap. Here is the NMap scan I ran and a breakdown of the flags I used.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">nmap -sT -sV -Pn -p- -A -T3 tar.get.ip.add -oA /home/kali/HTB/WU/Lame/nmap/scans
 </span></span></code></pre></div>
 <div class="notices tip">
     <div class="label">NMAP Flags</div>
-    <p>-sT =</p>
+    <p>-sT = TCP Connect() Scan</p>
 <p>-sV = OS Version</p>
-<p>-Pn = Scan all ports, and don't ping. (Scans prots no matter what)</p>
+<p>-Pn = Scan all ports, and don't ping. (Scans ports no matter what)</p>
 <p>-p- = All ports</p>
 <p>-A = All</p>
 <p>-T3 = Speed level. (Options 1-5 with 1 being slowest and 5 fastest)</p>
@@ -324,10 +353,10 @@
 
 <p>Now that we've found an exploit it's time to... exploit!</p>
 <hr>
-<h2 id="exploiting-the-vulnerablity">Exploiting the vulnerablity</h2>
+<h2 id="exploiting-the-vulnerablity">Exploiting the Vulnerablity</h2>
 <p>From our searchsploit result we see we can use this exploit via Metasploit. Lets get it spun up and dive in.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl">msfconsole
-</span></span></code></pre></div><p>Once you have it started we can get is set up.</p>
+</span></span></code></pre></div><p>Once you have it started we can get it set up.</p>
 
 <div class="notices tip">
     <div class="label">Metasploit Setup</div>
@@ -339,6 +368,14 @@
   </div>
 
 <p>It works!! Now time to dig around and find the flags. I'll leave that part for you, but feel free to message me if you need a hand!</p>
+<hr>
+<h2 id="walkthrough-video">Walkthrough Video</h2>
+
+<div class="video">
+  <iframe src="https://www.youtube.com/embed/vPQDacqDzm0?controls=1&rel=0" loading="lazy"></iframe>
+</div>
+
+<br>
     </div>
 <div class="post_comments">
   
@@ -384,7 +421,7 @@
         <a href="https://jrhacka.github.io/post/bundle/hugopost/" class="nav-link" title="The 7 Hours of Creation">The 7 Hours of Creation</a>
       </li>
       <li>
-        <a href="https://jrhacka.github.io/post/jerry/" class="nav-link" title="Jerry&#39;s Mom Has Got It Goin On&#39;">Jerry's Mom Has Got It Goin On'</a>
+        <a href="https://jrhacka.github.io/post/legacy/" class="nav-link" title="This is my Legacy">This is my Legacy</a>
       </li>
     </ul>
     <div>
