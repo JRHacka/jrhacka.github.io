@@ -11,7 +11,7 @@
     data-mode="dim"
   >
   <head>
-<title>JRHacka</title>
+<title>Hozah for Wazuh | JRHacka</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,24 +25,25 @@
 
 
 
+  
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="Everyone welcome to my Ted Talk. This post is primarily going to be a discussion on SIEM’s in general, and then on what my initial thoughts were on Wazuh. The …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="@JRHacka">
-<meta name="twitter:title" content="" />
-<meta name="twitter:image" content="https://jrhacka.github.io/logos/LogoOutline.png"/>
-<meta property="og:url" content="https://jrhacka.github.io/homepage/" />
-<meta property="og:title" content="" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://jrhacka.github.io/logos/LogoOutline.png" />
+<meta name="twitter:title" content="Hozah for Wazuh" />
+<meta name="twitter:image" content="https://raw.githubusercontent.com/JRHacka/Blog-Site/main/jrhacka/static/images/Wazuh.png"/>
+<meta property="og:url" content="https://jrhacka.github.io/post/wazuh/" />
+<meta property="og:title" content="Hozah for Wazuh" />
+<meta property="og:description" content="Everyone welcome to my Ted Talk. This post is primarily going to be a discussion on SIEM’s in general, and then on what my initial thoughts were on Wazuh. The …" />
+<meta property="og:image" content="https://raw.githubusercontent.com/JRHacka/Blog-Site/main/jrhacka/static/images/Wazuh.png" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://jrhacka.github.io/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://jrhacka.github.io/icons/favicon-32x32.png">
 <link rel="manifest" href="https://jrhacka.github.io/icons/site.webmanifest">
 
-<link rel="canonical" href="https://jrhacka.github.io/homepage/">
+<link rel="canonical" href="https://jrhacka.github.io/post/wazuh/">
 
 
 
@@ -161,7 +162,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title"></h1>
+    <h1 class="post_title">Hozah for Wazuh</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <title>calendar</title>
@@ -169,19 +170,22 @@
 </svg>
 </span>
     <span class="post_date">
-      Jan 1, 0001</span>
-    <span class="post_time"> · 0 min read</span>
+      Sep 8, 2022</span>
+    <span class="post_time"> · 3 min read</span><span>&nbsp;· <a href='https://jrhacka.github.io/tags/projects/' title="Projects" class="post_tag button button_translucent">Projects
+        </a><a href='https://jrhacka.github.io/tags/siem/' title="SIEM" class="post_tag button button_translucent">SIEM
+        </a>
+    </span>
     <span class="page_only">&nbsp;·
   <div class="post_share">
     Share on:
-    <a href="https://twitter.com/intent/tweet?text=&url=https%3a%2f%2fjrhacka.github.io%2fhomepage%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+    <a href="https://twitter.com/intent/tweet?text=Hozah%20for%20Wazuh&url=https%3a%2f%2fjrhacka.github.io%2fpost%2fwazuh%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>twitter</title>
   <use xlink:href="#twitter"></use>
 </svg>
 
     </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fjrhacka.github.io%2fhomepage%2f&t=" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fjrhacka.github.io%2fpost%2fwazuh%2f&t=Hozah%20for%20Wazuh" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>facebook</title>
   <use xlink:href="#facebook"></use>
@@ -195,7 +199,7 @@
 </svg>
 
     </a>
-    <a href="https://jrhacka.github.io/homepage/" title="Copy Link" class="link link_yank">
+    <a href="https://jrhacka.github.io/post/wazuh/" title="Copy Link" class="link link_yank">
       <svg class="icon">
   <title>copy</title>
   <use xlink:href="#copy"></use>
@@ -205,8 +209,70 @@
   </div>
   </span>
   </div>
+<div class="post_featured"><figure>
+  <picture>
 
-    <div class="post_body">
+    
+      
+        
+        
+        
+        
+        
+        
+    <img
+      loading="lazy"
+      decoding="async"
+      alt=""
+      
+        class="image_figure image_featured image_external image_unprocessed"
+        src="https://raw.githubusercontent.com/JRHacka/Blog-Site/main/jrhacka/static/images/Wazuh.png"
+      
+      
+    />
+
+    </picture>
+</figure>
+
+      </div>
+    <div class="post_body"><p>Everyone welcome to my Ted Talk. This post is primarily going to be a discussion on SIEM’s in general, and then on what my initial thoughts were on Wazuh. The installation instructions online are excellent, so I’m going to let you all use that instead of me just rewriting them. Please refer to the video if you do get stuck or have questions!</p>
+<h3 id="1--what-is-a-siem">1 – What is a SIEM?</h3>
+<p>That’s an excellent question. Pronounced like sim, SIEM stands for:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="ln">1</span><span class="cl">
+</span></span><span class="line"><span class="ln">2</span><span class="cl">Security
+</span></span><span class="line"><span class="ln">3</span><span class="cl">
+</span></span><span class="line"><span class="ln">4</span><span class="cl">Incident
+</span></span><span class="line"><span class="ln">5</span><span class="cl">
+</span></span><span class="line"><span class="ln">6</span><span class="cl">Event
+</span></span><span class="line"><span class="ln">7</span><span class="cl">
+</span></span><span class="line"><span class="ln">8</span><span class="cl">Management 
+</span></span></code></pre></div><p>Essentially these solutions help to detect, analyze, and respond to security threats before they can harm the business/individual. According to What is SIEM? | Microsoft Security these solutions, “combine both security information management (SIM) and security event management (SEM) into one security management system.” Here is a list of the “TOP 11” best SIEM’s for 2022 Top 11 Best SIEM Tools in 2022 (Real-Time Incident Response &amp; Security) (softwaretestinghelp.com).</p>
+
+<div class="notices warning">
+    <div class="label">Opinion not Fact</div>
+    <p>The above list was created by an author with an opinion and should be taken as such. I just wanted you to have an idea of some enterprise level SIEM’s, and do not endorse that the list above is indeed the top 11 to choose from. Please do your own research before recommending one to your boss or purchasing one for your company.</p>
+
+  </div>
+
+<h3 id="why-wazuh">Why Wazuh?</h3>
+<p>I first learned about Wazuh when I attended the ShowME IT Summit on 09/01/2022. I absorbed so much incredible information, but this item really stuck with me. I decided to look into it more and see if it was an item worth exploring.</p>
+<p>Wazuh is a free open-source application that can be deployed via the cloud or on a physical device. The free aspect of it was key because I really wasn’t looking to pay. Because I wanted the practice and experience, the on-premises server aspect was very appealing. I grabbed an Ubuntu 22.04 ISO and a copy of my Windows 10 VM. I had to install a couple of different tools and packages for Ubuntu, but I kind of organically was taken to them by the installation process.</p>
+
+<div class="notices note">
+    <div class="label">Note</div>
+    <p>If you need installation help, check the video!</p>
+
+  </div>
+
+<h3 id="3--more-to-come">3 – More to Come!</h3>
+<p>There were a ton of cool functionalities in the tool itself. The dashboard was an excellent balance of practical and appealing on the eyes. Each agent’s page will show compliance requirements for different standards, such as NIST or PCI DDS. There is a whole section diving into this machine and the MITRE ATT&amp;CK framework. The security events page logs absolutely everything. All in all, a really cool and interesting SIEM that I am incredibly excited to explore more down the line!</p>
+<h2 id="installation-video">Installation Video</h2>
+
+<div class="video">
+  <iframe src="https://www.youtube.com/embed/pZ1ZvtGSv0E?controls=1&rel=0" loading="lazy"></iframe>
+</div>
+
+<br>
     </div>
 <div class="post_comments">
   
@@ -224,7 +290,7 @@
     
   
   <div class="search">
-    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope=''>
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope='post'>
     <label for="find" class="search_label"><svg class="icon">
   <title>search</title>
   <use xlink:href="#search"></use>
